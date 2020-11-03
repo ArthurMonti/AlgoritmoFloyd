@@ -18,7 +18,7 @@ public class App extends Application {
     @Override
     public void start(Stage stage) throws IOException {
         scene = new Scene(loadFXML("Interface"), 640, 480);
-        stage.titleProperty().set("Algoritmo de Floyd- Feito por Arthur Monti e Bruno Mattos");
+        stage.titleProperty().set("Algoritmo de Floyd- Feito por Arthur Monti, Bruno Mattos");
         stage.setScene(scene);
         stage.show();
     }
