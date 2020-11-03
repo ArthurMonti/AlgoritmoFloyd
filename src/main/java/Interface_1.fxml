@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="501.0" prefWidth="689.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.algoritmofloyd.InterfaceController">
+   <children>
+      <TextArea fx:id="txtArea" focusTraversable="false" layoutX="36.0" layoutY="57.0" prefHeight="168.0" prefWidth="200.0" />
+      <Text layoutX="36.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Insira a matriz aqui:" />
+      <TextArea fx:id="txtMD" focusTraversable="false" layoutX="401.0" layoutY="57.0" prefHeight="168.0" prefWidth="200.0" />
+      <Text layoutX="401.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Matriz Distancia:" />
+      <TextArea fx:id="txtMS" focusTraversable="false" layoutX="401.0" layoutY="255.0" prefHeight="168.0" prefWidth="200.0" />
+      <Text layoutX="401.0" layoutY="251.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Matriz Solução:" />
+      <ComboBox fx:id="cbOrigem" disable="true" layoutX="42.0" layoutY="314.0" prefHeight="25.0" prefWidth="65.0" />
+      <Button layoutX="42.0" layoutY="238.0" mnemonicParsing="false" onAction="#Floyd" text="Floyd" />
+      <Text layoutX="36.0" layoutY="300.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Vertice Origem:" />
+      <Text layoutX="163.0" layoutY="300.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Vertice Destino:" />
+      <ComboBox fx:id="cbDestino" disable="true" layoutX="163.0" layoutY="314.0" prefHeight="25.0" prefWidth="65.0" />
+      <Text layoutX="36.0" layoutY="366.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Custo:" wrappingWidth="65.0" />
+      <Text layoutX="35.0" layoutY="395.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Caminho:" wrappingWidth="131.708984375" />
+   </children>
+</AnchorPane>
